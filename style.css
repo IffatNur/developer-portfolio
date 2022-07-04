@@ -9,7 +9,7 @@ h1{
 .head .main{
     color: crimson;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -41,5 +41,31 @@ button{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
+}
+.ending{
+    width: 50%;
+    padding: 10px 60px 120px 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 7px solid rgb(228, 23, 208) ;
+}
+.different{
+    border-left: 7px solid rgb(138, 11, 236);
+}
+.second-head{
+    color: orange;
+}
+.main-head{
+    font-size: 40px;
+}
+.last-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
 }
 
