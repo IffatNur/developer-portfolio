@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.head .main{
+    color: crimson;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left:10%;
+}
+button{
+    border: none;
+    padding: 15px 30px;
+    /*background-color: #f53565;*/
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 0, 111),white,rgb(255, 0, 111));
+}
+.hire-me{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
